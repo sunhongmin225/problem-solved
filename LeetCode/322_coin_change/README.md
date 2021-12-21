@@ -48,8 +48,8 @@ coins = [1], amount = 0
 ## Constraints
 
 1. 1 <= coins.length <= 12
-2. 1 <= coins[i] <= 231 - 1
-3. 0 <= amount <= 104
+2. 1 <= coins[i] <= 2<sup>31</sup>-1
+3. 0 <= amount <= 10<sup>4</sup>
 
 ## Types
 
