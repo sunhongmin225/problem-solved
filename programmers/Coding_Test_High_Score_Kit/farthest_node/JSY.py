@@ -1,10 +1,17 @@
+'''
+Notes:
+1. shortes path 알고리즘은 중요하니까 늘 기억하고 있기. 
+2. how to update a python dictionary with multiple keys
+3. using python deque for implementing queue
+    주의: pop할 때 큐로 동작하게 하고 싶으면 반드시 popleft를 해야함! 
+'''
+
 from collections import deque
 
 MAX = 50001
 
 def solution(n, edge):
-    # 1. edge to linked list
-    # ? how to update with multiple keys
+    # 1. Convert edge to graph with neighbor
     graph = {}
     key_values_dict = ((i, []) for i in range(1, n + 1))
     graph.update(key_values_dict)
@@ -16,7 +23,7 @@ def solution(n, edge):
 
     # 2. Initialization for BFS
     # QUEUE
-    q = deque([])     # ? Python queue
+    q = deque([])     
     q.append(1)
     # visited 
     visited = [-1] * (n + 1)
@@ -27,11 +34,11 @@ def solution(n, edge):
 
     # 3. BFS
     while len(q) > 0:
-        target = q.pop()
+        target = q.popleft()
         
         for neighbor in graph[target]:
 
-            if visited[neighbor] == -1:
+            if visited[neighbor] == -1: # Visit unvisited neighbors
                 q.append(neighbor)
                 
                 visited[neighbor] = 1
