@@ -12,4 +12,4 @@ class Solution:
                 fizzbuzz.append(str(num+1))
                 
         return fizzbuzz
-         
+   
