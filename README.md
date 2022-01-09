@@ -9,7 +9,7 @@ Problem Solving Study Group
 - Week4 Review Graph:
   - ![Week4 Review Graph](utils/graphs/week4.png)
 
-[*Instructions for creating review graph*](https://github.com/sunhongmin225/problem-solved/blob/add-week4/utils/README.md)
+[*Instructions for creating review graph*](https://github.com/sunhongmin225/problem-solved/blob/main/utils/README.md)
 
 ## Members
 * [@sunhongmin225](https://github.com/sunhongmin225)

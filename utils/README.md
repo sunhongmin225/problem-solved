@@ -22,7 +22,7 @@ pip install distinctipy
 
 ## Usage
 
-After configuring environemnt, run the following command inside `graphs/` with result PNG file as a flag. Then the corresponding file will be created within `utils/graphs/`.
+After configuring environment, run the following command inside `graphs/` with result PNG file as a flag. Then the corresponding file will be created within `utils/graphs/`.
 
 ```python
 python main.py -n week3
