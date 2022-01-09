@@ -15,31 +15,6 @@ class Solution:
         result = tbl[amount]
         return len(result) if result is not None else -1
 
-        def get_shortest_combo(coins, amount, mem=None):
-            """
-            via memoization
-            """
-            if mem is None:
-                mem = {}
-            if amount in mem:
-                return mem[amount]
-            if amount == 0:
-                return []
-            if amount < 0:
-                return None
-            shortest_combo = None
-            for c in coins:
-                remainder = amount - c
-                remainder_combo = get_shortest_combo(coins, remainder, mem)
-                if remainder_combo is not None:
-                    combo = [*remainder_combo, c]
-                    if shortest_combo is None or len(combo) < len(shortest_combo):
-                        shortest_combo = combo
-            mem[amount] = shortest_combo
-            return mem[amount]
-        result = get_shortest_combo(coins, amount)
-        return len(result) if result is not None else -1
-
 
 if __name__ == '__main__':
     s = Solution()
