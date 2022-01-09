@@ -1,5 +1,7 @@
 ## Example
 
+![Example Image](graphs/week3.png)
+
 ![Example Image](graphs/week4.png)
 
 ## Requirements
@@ -20,10 +22,10 @@ pip install distinctipy
 
 ## Usage
 
-After configuring environemnt, run the following command inside `utils/` with result PNG file as a flag. Then the corresponding file will be created within `utils/`.
+After configuring environemnt, run the following command inside `graphs/` with result PNG file as a flag. Then the corresponding file will be created within `utils/graphs/`.
 
 ```python
 python main.py -n week3
 ```
 
-From the above example the output file will be in `./utils/week3.png`.
+From the above example the output file will be in `./utils/graphs/week3.png`.

@@ -12,11 +12,14 @@ DEGREE = 2
 
 
 def main(members=MEMBERS, degree=DEGREE, method="random", filename='random-graph'):
+    fp = f'graphs/{filename}.png'
+    if Path(fp).exists():
+        raise FileExistsError(f'{filename}.png already exists!')
+
     size = len(members)
     dg = ig.Graph().K_Regular(size, degree, directed=True)
     layout = dg.layout("circle")
     dg.vs['name'] = members
-    fp = Path('graphs') / f"{filename}.png"
 
     vertex_colors = distinctipy.get_colors(size, pastel_factor=0.7)
     edge_colors = [c for c, degree in zip(vertex_colors, [2]*size) for _ in range(degree)]
