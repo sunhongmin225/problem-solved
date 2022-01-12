@@ -1,13 +1,16 @@
 # Problem Solved
 Problem Solving Study Group
 
-## Current Week(3 - 4)
+## Currently Week 4
 
 - Manager: SDO
 - Week3 Review Graph:
-  - ![Week3 Review Graph](utils/graphs/week3.png)
+
+![Week3 Review Graph](utils/graphs/week3.png)
+
 - Week4 Review Graph:
-  - ![Week4 Review Graph](utils/graphs/week4.png)
+
+![Week4 Review Graph](utils/graphs/week4.png)
 
 [*Instructions for creating review graph*](https://github.com/sunhongmin225/problem-solved/blob/main/utils/README.md)
 
