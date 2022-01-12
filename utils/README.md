@@ -6,26 +6,34 @@
 
 ## Requirements
 
-For installing in existing conda environment.
-```
-conda install python-igraph pycairo
-pip install distinctipy
-```
-
-For creating a new conda environment.
-```
-conda create -n <env_name> python=3.9 python-igraph pycairo
-conda activate <env_name>
-pip install distinctipy
-```
-
+`conda` must be initialized for `bash` prior to the build. 
 
 ## Usage
 
-After configuring environment, run the following command inside `graphs/` with result PNG file as a flag. Then the corresponding file will be created within `utils/graphs/`.
+Within the `utils/` folder, build the environment.
 
-```python
-python main.py -n week3
+```bash
+make build-env
 ```
 
-From the above example the output file will be in `./utils/graphs/week3.png`.
+Test the environment with
+
+```bash
+make test-env
+```
+
+If the test passes, use the cli in the following way.
+
+```bash
+conda activate ./venv
+python main.py -n week_N
+```
+
+From the above example the output file will be in `./graphs/week_N.png`.
+
+After creating the graph, delete the environment with the following command.
+
+```bash
+make clean
+```
+

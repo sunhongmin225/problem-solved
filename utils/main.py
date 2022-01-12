@@ -40,8 +40,8 @@ if __name__=="__main__":
     parser = argparse.ArgumentParser(
         prog='PROG',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('-d','--degree', type=int, default=2, help='Define the degree of the graph')
     parser.add_argument('-n','--name', type=str, default='random-graph', help='Define PNG filename')
+    parser.add_argument('-d','--degree', type=int, default=2, help='Define number of reviews for each person')
     args = parser.parse_args()
     main(degree=args.degree, filename=args.name)
 
