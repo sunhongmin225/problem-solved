@@ -43,5 +43,5 @@ if __name__=="__main__":
     parser.add_argument('-n','--name', type=str, default='random-graph', help='Define PNG filename')
     parser.add_argument('-d','--degree', type=int, default=2, help='Define number of reviews for each person')
     args = parser.parse_args()
-    main(filename=args.name)
+    main(degree=args.degree, filename=args.name)
 
