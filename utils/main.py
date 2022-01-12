@@ -22,7 +22,7 @@ def main(members=MEMBERS, degree=DEGREE, method="random", filename='random-graph
     dg.vs['name'] = members
 
     vertex_colors = distinctipy.get_colors(size, pastel_factor=0.7)
-    edge_colors = [c for c, degree in zip(vertex_colors, [2]*size) for _ in range(degree)]
+    edge_colors = [c for c, degree in zip(vertex_colors, [degree]*size) for _ in range(degree)]
 
     ig.plot(
         dg,
@@ -41,6 +41,7 @@ if __name__=="__main__":
         prog='PROG',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('-n','--name', type=str, default='random-graph', help='Define PNG filename')
+    parser.add_argument('-d','--degree', type=int, default=2, help='Define number of reviews for each person')
     args = parser.parse_args()
     main(filename=args.name)
 
