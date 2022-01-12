@@ -1,7 +1,7 @@
 # Problem Solved
 Problem Solving Study Group
 
-## Current Week(3 - 4)
+## Currently Week 4
 
 - Manager: SDO
 - Week3 Review Graph:
