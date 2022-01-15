@@ -26,4 +26,4 @@ class Solution:
                 result += count[i]
         
         return result
-        
+
