@@ -6,6 +6,7 @@ class Solution:
             if substring in sequences:
                 sequences[substring] += 1
             else:
+                # initializing with substring as key
                 sequences[substring] = 1
         
         ret = []
