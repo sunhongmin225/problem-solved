@@ -6,6 +6,9 @@ current:
     1. if left is longer or same than right -> assign largest number to first left letter
   3. iterate until sorted words list is full of '' strings.
 
+future:
+  - pairwise comparision: O(n^2) 
+  - needs additional function that counts the number(or result values) of the current letter
 """
 
 def get_bj_input():
@@ -14,6 +17,7 @@ def get_bj_input():
     for _ in range(n):
         words.append(str(input()))
     return words
+
 
 def main(words):
     LETTER_VALUES = dict()
@@ -72,4 +76,6 @@ if __name__=="__main__":
     words = ["A", "B"] # 9 + 8 = 17
     print(main(words))# 
     words = ["A", "B", "C", "D", "E", "F", "G" , "H" , "I"] # 45
+    print(main(words))# 
+    words = ["ABB", "BB", "BB", "BB", "BB", "BB", "BB", "BB", "BB", "BB"] # A: 8, B: 9 => 1790
     print(main(words))# 
