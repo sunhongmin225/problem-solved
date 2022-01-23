@@ -1,14 +1,17 @@
 # Problem Solved
 Problem Solving Study Group
 
-## Currently Week 4
+📌 **Currently Week 5**
 
-- Manager: SDO
-- Week3 Review Graph:
+😎 **Current Manager**: PJS
 
-![Week3 Review Graph](utils/graphs/week3.png)
+## Reviewer-Reviewee
+### Week 5 [Current]
 
-- Week4 Review Graph:
+![week_5](https://user-images.githubusercontent.com/54504359/149775069-ea476ba2-65a6-42d0-9566-0b30ee418741.png)
+
+
+### Week 4
 
 ![Week4 Review Graph](utils/graphs/week4.png)
 

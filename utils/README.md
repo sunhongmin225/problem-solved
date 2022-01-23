@@ -2,11 +2,9 @@
 
 ![Example Image](graphs/week3.png)
 
-![Example Image](graphs/week4.png)
-
 ## Requirements
 
-`conda` must be initialized for `bash` prior to the build. 
+Depends on `conda` and `brew`. Appologies to Windows users.
 
 ## Usage
 
@@ -22,14 +20,11 @@ Test the environment with
 make test-env
 ```
 
-If the test passes, use the cli in the following way.
+If the test passes, change the name of `graphs/random-graph.png`.
 
 ```bash
-conda activate ./venv
-python main.py -n week_N
+mv graphs/random-graph.png graphs/weekX.png
 ```
-
-From the above example the output file will be in `./graphs/week_N.png`.
 
 After creating the graph, delete the environment with the following command.
 
