@@ -1,3 +1,13 @@
+"""
+current:
+  - pairwise comparsion: O(n^2)
+  1. sort words long -> short
+  2. compare left <-> right 
+    1. if left is longer or same than right -> assign largest number to first left letter
+  3. iterate until sorted words list is full of '' strings.
+
+"""
+
 def get_bj_input():
     n = int(input())
     words = []
