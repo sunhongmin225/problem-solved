@@ -18,55 +18,31 @@ class Maze:
         self.start = (0,0)
         self.end = (nrow-1, ncol-1)
 
-    def bfs(self):
-        visited = set()
+    def solve(self):
         q = deque()
-        paths = {}
         q.appendleft(self.start)
         while q:
             i, j = q.pop()
             if (i,j) == self.end:
                 break
-            visited.add((i,j))
-            if i-1 in self.row_range and self.maze[i-1][j] == 1 and (i-1,j) not in visited:
+            if i-1 in self.row_range and self.maze[i-1][j] == 1:
                 # up
                 q.appendleft((i-1,j))
-                paths[(i-1,j)] = (i,j)
-            if j-1 in self.col_range and self.maze[i][j-1] == 1 and (i,j-1) not in visited:
+                self.maze[i-1][j] = self.maze[i][j] + 1
+            if j-1 in self.col_range and self.maze[i][j-1] == 1:
                 # left
                 q.appendleft((i,j-1))
-                paths[(i,j-1)] = (i,j)
-            if i+1 in self.row_range and self.maze[i+1][j] == 1 and (i+1,j) not in visited:
+                self.maze[i][j-1] = self.maze[i][j] + 1
+            if i+1 in self.row_range and self.maze[i+1][j] == 1:
                 # down
                 q.appendleft((i+1,j))
-                paths[(i+1,j)] = (i,j)
-            if j+1 in self.col_range and self.maze[i][j+1] == 1 and (i,j+1) not in visited:
+                self.maze[i+1][j] = self.maze[i][j] + 1
+            if j+1 in self.col_range and self.maze[i][j+1] == 1:
                 # right
                 q.appendleft((i,j+1))
-                paths[(i,j+1)] = (i,j)
-        return paths
+                self.maze[i][j+1] = self.maze[i][j] + 1
+        return self.maze[self.end[0]][self.end[1]]
     
-    def get_shortest_path(self):
-        paths = self.bfs()
-        position = self.end
-        result = [position]
-        while position != self.start:
-            position = paths[position]
-            result.append(position)
-        return result
-
-    def get_shortest_path_length(self):
-        length = 1
-        paths = self.bfs()
-        position = self.end
-        while position != self.start:
-            position = paths[position]
-            length += 1
-        return length
-
-    def solve(self):
-        result = self.get_shortest_path_length()
-        return result
 
 # 제출용 코드
 print(Maze(*get_bj_input()).solve())
