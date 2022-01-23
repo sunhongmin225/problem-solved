@@ -22,6 +22,7 @@ ACTIVATE_ENV = conda activate ./$(CONDA_ENV_NAME)
 .PHONY: build-env
 build-env: $(CONDA_ENV_NAME)  ## Build the conda environment
 $(CONDA_ENV_NAME):
+	brew install cairo
 	conda create -p $(CONDA_ENV_NAME)  --copy -y  python=$(PY_VERSION) python-igraph pycairo
 	./$(CONDA_ENV_NAME)/bin/pip install distinctipy
 
