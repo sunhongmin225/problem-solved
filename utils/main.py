@@ -11,7 +11,7 @@ MEMBERS = deque(["MSH","SDO","JSY","LHS","PJS"])
 DEGREE = 2
 
 
-def main(members=MEMBERS, degree=DEGREE, method="random", filename='random-graph'):
+def main(members=MEMBERS, degree=DEGREE, filename='random-graph'):
     fp = f'graphs/{filename}.png'
     if Path(fp).exists():
         raise FileExistsError(f'{filename}.png already exists!')
