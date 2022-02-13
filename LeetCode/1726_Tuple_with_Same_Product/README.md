@@ -33,5 +33,5 @@ Explanation: There are 16 valid tuples:
 
 ## Constraints
 - `1 <= nums.length <= 1000`
-- `1 <= nums[i] <= 10<sup>4</sup>`
+- 1 <= nums[i] <= 10<sup>4</sup>
 - `All elements in nums are distinct.`
