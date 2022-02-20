@@ -1,19 +1,24 @@
 # Problem Solved
 Problem Solving Study Group
 
-📌 **Currently Week 9**
+
+📌 **Currently Week 10**
+
 
 😎 **Current Manager**: LHS
 
 ## Reviewer-Reviewee
-### Week 9 [Current]
+
+### Week 10 [Current]
+
+![Week10](./utils/graphs/week10.png)
+
+
+### Week 9
 
 ![Week9](./utils/graphs/week9.png)
 
 
-### Week 8 
-
-![Week8](https://user-images.githubusercontent.com/44546247/152686813-913f3262-82ab-474b-9485-3869d5ceffc0.png)
 
 [*Instructions for creating review graph*](https://github.com/sunhongmin225/problem-solved/blob/main/utils/README.md)
 
