@@ -11,10 +11,6 @@ Problem Solving Study Group
 ![Week10](./utils/graphs/week10.png)
 
 
-### Week 9 
-
-![Week9](./utils/graphs/week9.png)
-
 [*Instructions for creating review graph*](https://github.com/sunhongmin225/problem-solved/blob/main/utils/README.md)
 
 ## Members
