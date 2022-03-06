@@ -1,17 +1,16 @@
-g Problem Solved
+# Problem Solved
 Problem Solving Study Group
 
 📌 **Currently Week 11**
 
 😎 **Current Manager**: SDO
 
-## Problems to Solve
-
+## Problems This Week
   - [LeetCode 4](https://leetcode.com/problems/median-of-two-sorted-arrays/)
-      - [Go To Directory](./LeetCode/4_Median_of_Two_Sorted_Arrays)
+    - [Go To Directory](./LeetCode/4_Median_of_Two_Sorted_Arrays)
 
   - [LeetCode 22](https://leetcode.com/problems/generate-parentheses/)
-      - [Go To Directory](./LeetCode/22_Generate_Parentheses)
+    - [Go To Directory](./LeetCode/22_Generate_Parentheses)
 
 ## Reviewer-Reviewee
 
