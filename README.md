@@ -6,11 +6,13 @@ Problem Solving Study Group
 😎 **Current Manager**: SDO
 
 ## Problems This Week
-  - [LeetCode 4](https://leetcode.com/problems/median-of-two-sorted-arrays/)
-    - [Go To Directory](./LeetCode/4_Median_of_Two_Sorted_Arrays)
+  - LeetCode 4
+    - [Go To Website](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+    - [Go To Directory](./LeetCode/4_Median_of_Two_Sorted_Arrays/README.md)
 
-  - [LeetCode 22](https://leetcode.com/problems/generate-parentheses/)
-    - [Go To Directory](./LeetCode/22_Generate_Parentheses)
+  - LeetCode 22
+    - [Go To Website](https://leetcode.com/problems/generate-parentheses/)
+    - [Go To Directory](./LeetCode/22_Generate_Parentheses/README.md)
 
 ## Reviewer-Reviewee
 
