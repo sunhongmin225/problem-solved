@@ -1,14 +1,23 @@
-# Problem Solved
+g Problem Solved
 Problem Solving Study Group
 
-📌 **Currently Week 10**
+📌 **Currently Week 11**
 
-😎 **Current Manager**: LHS
+😎 **Current Manager**: SDO
+
+## Problems to Solve
+
+  - [LeetCode 4](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+      - [Go To Directory](./LeetCode/4_Median_of_Two_Sorted_Arrays)
+
+  - [LeetCode 22](https://leetcode.com/problems/generate-parentheses/)
+      - [Go To Directory](./LeetCode/22_Generate_Parentheses)
 
 ## Reviewer-Reviewee
-### Week 10 [Current]
 
-![Week10](./utils/graphs/week10.png)
+### Week 11 [Current]
+
+![Week11](./utils/graphs/week11.png)
 
 
 [*Instructions for creating review graph*](https://github.com/sunhongmin225/problem-solved/blob/main/utils/README.md)
