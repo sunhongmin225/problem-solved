@@ -2,26 +2,29 @@
 Problem Solving Study Group
 
 
-📌 **Currently Week 11**
+📌 **Currently Week 12**
 
 😎 **Current Manager**: SDO
 
 ## Problems This Week
-  - LeetCode 4
-    - [Go To Website](https://leetcode.com/problems/median-of-two-sorted-arrays/)
-    - [Go To Directory](./LeetCode/4_Median_of_Two_Sorted_Arrays/README.md)
+  - LeetCode 236
+    - [Go To Website](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+    - [Go To Directory](./LeetCode/236_lowest_common_ancestor_b_tree/README.md)
 
-  - LeetCode 22
-    - [Go To Website](https://leetcode.com/problems/generate-parentheses/)
-    - [Go To Directory](./LeetCode/22_Generate_Parentheses/README.md)
+  - LeetCode 64
+    - [Go To Website](https://leetcode.com/problems/minimum-path-sum/)
+    - [Go To Directory](./LeetCode/236_lowest_common_ancestor_b_tree/README.md)
 
 ## Reviewer-Reviewee
 
-### Week 11 [Current]
+### Week 12 [Current]
+
+![Week12](./utils/graphs/week12.png)
+
+
+### Week 11 [Last Week]
 
 ![Week11](./utils/graphs/week11.png)
-
-
 
 [*Instructions for creating review graph*](https://github.com/sunhongmin225/problem-solved/blob/main/utils/README.md)
 
