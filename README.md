@@ -13,7 +13,7 @@ Problem Solving Study Group
 
   - LeetCode 64
     - [Go To Website](https://leetcode.com/problems/minimum-path-sum/)
-    - [Go To Directory](./LeetCode/236_lowest_common_ancestor_b_tree/README.md)
+    - [Go To Directory](./LeetCode/64_minimum_path_sum/README.md)
 
 ## Reviewer-Reviewee
 
