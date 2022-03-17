@@ -6,7 +6,7 @@ var generateParenthesis = function (n) {
 	let result = [];
 	let count = n * 2;
 
-	const backtrack = function (S="", left=0, right=0) {
+	const backtrack = (S="", left=0, right=0) => {
 		if (S.length === count) {
 			result.push(S)
 			return
