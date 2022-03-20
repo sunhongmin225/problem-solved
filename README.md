@@ -19,7 +19,7 @@ Problem Solving Study Group
 
 ### Week 13 [Current]
 
-![Week13](./utils/graphs/week13.png)
+![Week13](./utils/graphs/Week13.png)
 
 
 ### Week 12 [Last Week]
