@@ -2,29 +2,29 @@
 Problem Solving Study Group
 
 
-📌 **Currently Week 12**
+📌 **Currently Week 14**
 
-😎 **Current Manager**: SDO
+😎 **Current Manager**: JSY
 
 ## Problems This Week
-  - LeetCode 236
-    - [Go To Website](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
-    - [Go To Directory](./LeetCode/236_lowest_common_ancestor_b_tree/README.md)
+  - LeetCode 91
+    - [Go To Website](https://leetcode.com/problems/decode-ways/)
+    - [Go To Directory](./LeetCode/91_decode_ways/README.md)
 
-  - LeetCode 64
-    - [Go To Website](https://leetcode.com/problems/minimum-path-sum/)
-    - [Go To Directory](./LeetCode/64_minimum_path_sum/README.md)
+  - LeetCode 1337
+    - [Go To Website](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)
+    - [Go To Directory](./LeetCode/1337_the_k_weakest_rows_in_a_matrix/README.md)
 
 ## Reviewer-Reviewee
 
-### Week 12 [Current]
+### Week 13 ~ 14 [Current]
+
+![Week13](./utils/graphs/Week13.png)
+
+
+### Week 12 [Last Week]
 
 ![Week12](./utils/graphs/week12.png)
-
-
-### Week 11 [Last Week]
-
-![Week11](./utils/graphs/week11.png)
 
 [*Instructions for creating review graph*](https://github.com/sunhongmin225/problem-solved/blob/main/utils/README.md)
 
@@ -36,14 +36,14 @@ Problem Solving Study Group
 * [@ttoru96](https://github.com/ttoru96)
 
 ## What We Do
-* Solve 3+ problems every week using various algorithms.
+* Solve 2 ~ 3 problems every week using various algorithms.
 * Review each other's solutions and provide necessary feedback.
 * Study and discuss crucial, frequently used, and advanced algorithms.
 
 ## How It Works
 1. Choose a manager every two weeks.
 1. For each week:
-	1. The manager uploads 3+ problems (without specifying problem types).
+	1. The manager uploads 2 ~ 3 problems (without specifying problem types).
 	1. Everyone solves problems for one week and adds solutions.
 	1. The manager adds problems' types.
 	1. Everyone posts reviews of at least two other members' solutions.
