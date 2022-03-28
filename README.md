@@ -2,18 +2,18 @@
 Problem Solving Study Group
 
 
-📌 **Currently Week 13**
+📌 **Currently Week 14**
 
 😎 **Current Manager**: JSY
 
 ## Problems This Week
-  - LeetCode 49
-    - [Go To Website](https://leetcode.com/problems/group-anagrams/)
-    - [Go To Directory](./LeetCode/49_group_anagrams/README.md)
+  - LeetCode 91
+    - [Go To Website](https://leetcode.com/problems/decode-ways/)
+    - [Go To Directory](./LeetCode/91_decode_ways/README.md)
 
-  - LeetCode 350
-    - [Go To Website](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
-    - [Go To Directory](./LeetCode/350_intersection_of_two_arrays_ii/README.md)
+  - LeetCode 1337
+    - [Go To Website](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)
+    - [Go To Directory](./LeetCode/1337_the_k_weakest_rows_in_a_matrix/README.md)
 
 ## Reviewer-Reviewee
 
