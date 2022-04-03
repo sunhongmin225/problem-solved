@@ -2,29 +2,29 @@
 Problem Solving Study Group
 
 
-📌 **Currently Week 14**
+📌 **Currently Week 15**
 
-😎 **Current Manager**: JSY
+😎 **Current Manager**: LHS
 
 ## Problems This Week
-  - LeetCode 91
-    - [Go To Website](https://leetcode.com/problems/decode-ways/)
-    - [Go To Directory](./LeetCode/91_decode_ways/README.md)
+  - LeetCode 189
+    - [Go To Website](https://leetcode.com/problems/rotate-array/)
+    - [Go To Directory](./LeetCode/189_rotate_array/README.md)
 
-  - LeetCode 1337
-    - [Go To Website](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)
-    - [Go To Directory](./LeetCode/1337_the_k_weakest_rows_in_a_matrix/README.md)
+  - LeetCode 437
+    - [Go To Website](https://leetcode.com/problems/path-sum-iii/)
+    - [Go To Directory](./LeetCode/437_path_sum_III/README.md)
 
 ## Reviewer-Reviewee
 
-### Week 13 ~ 14 [Current]
+### Week 15 ~ 16 [Current]
 
-![Week13](./utils/graphs/Week13.png)
+![Week15](./utils/graphs/Week15.png)
 
 
-### Week 12 [Last Week]
+### Week 13 ~ 14 [Last Week]
 
-![Week12](./utils/graphs/week12.png)
+![Week13](./utils/graphs/week13.png)
 
 [*Instructions for creating review graph*](https://github.com/sunhongmin225/problem-solved/blob/main/utils/README.md)
 
