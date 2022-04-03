@@ -24,7 +24,7 @@ Problem Solving Study Group
 
 ### Week 13 ~ 14 [Last Week]
 
-![Week13](./utils/graphs/week13.png)
+![Week13](./utils/graphs/Week13.png)
 
 [*Instructions for creating review graph*](https://github.com/sunhongmin225/problem-solved/blob/main/utils/README.md)
 
