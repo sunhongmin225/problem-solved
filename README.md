@@ -2,18 +2,22 @@
 Problem Solving Study Group
 
 
-📌 **Currently Week 15**
+
+📌 **Currently Week 16**
+
 
 😎 **Current Manager**: LHS
 
 ## Problems This Week
-  - LeetCode 189
-    - [Go To Website](https://leetcode.com/problems/rotate-array/)
-    - [Go To Directory](./LeetCode/189_rotate_array/README.md)
 
-  - LeetCode 437
-    - [Go To Website](https://leetcode.com/problems/path-sum-iii/)
-    - [Go To Directory](./LeetCode/437_path_sum_III/README.md)
+  - LeetCode 494
+    - [Go To Website](https://leetcode.com/problems/target-sum/)
+    - [Go To Directory](./LeetCode/494_target_sum/README.md)
+
+  - LeetCode 740
+    - [Go To Website](https://leetcode.com/problems/delete-and-earn/)
+    - [Go To Directory](./LeetCode/740_delete_and_earn/README.md)
+
 
 ## Reviewer-Reviewee
 
