@@ -4,13 +4,16 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+# time limit exceed...
 class Solution:
     def widthOfBinaryTree(self, root: Optional[TreeNode]) -> int:
-        self.depth = 0
+        # max depth for total count
+		self.depth = 0
         self.findDepth(root, 0)
-        # print(f"depth: {self.depth}")
-        node_num = 2**(self.depth+1) - 1
-        # print(f"node num: {node_num}")
+        
+		# total number of nodes
+		node_num = 2**(self.depth+1) - 1
         self.cnt = 0
         queue = []
         queue.append(root)
@@ -18,11 +21,14 @@ class Solution:
         while queue:
             temp = queue.pop(0)
             self.cnt +=1
-            if self.cnt == node_num+1:
+	        # if the number of nodes if full, break    
+			if self.cnt == node_num+1:
                 break
-            # print(temp.val)
             total_order.append(temp.val)
-            if temp.left is not None:
+            
+			# if left or right node is not null, add it to queue
+			# if is null, create node with value=200
+			if temp.left is not None:
                 queue.append(temp.left)
             else:
                 temp.left = TreeNode(200)
@@ -32,7 +38,8 @@ class Solution:
             else:
                 temp.right = TreeNode(200)
                 queue.append(temp.right)
-        # print(total_order)
+
+		# find max_width by iterating level
         max_width = 0
         for i in range(self.depth+1):
             if i == 0 and total_order[0]!=200:
@@ -40,14 +47,10 @@ class Solution:
                 continue
             st = 2**i -1
             end = 2**(i+1)-1
-            # print(total_order[st:end])
             val_list= []
             for j in range(st, end):
                 if total_order[j] != 200:
                     val_list.append(j)
-            
-            # print(val_list)
-            # print(max(val_list)-min(val_list)+1)
             max_width = max(max_width, max(val_list)-min(val_list)+1)
         return max_width    
             
