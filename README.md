@@ -3,32 +3,31 @@ Problem Solving Study Group
 
 
 
-📌 **Currently Week 18**
+📌 **Currently Week 20**
 
 
-😎 **Current Manager**: MSH
+😎 **Current Manager**: PJS
 
 ## Problems This Week
 
-  - LeetCode 210
-    - [Go To Website](https://leetcode.com/problems/course-schedule-ii/)
-    - [Go To Directory](./LeetCode/210_Course_Schedule_II/README.md)
+  - LeetCode 39
+    - [Go To Website](https://leetcode.com/problems/combination-sum/)
+    - [Go To Directory](https://github.com/sunhongmin225/problem-solved/tree/main/LeetCode/39_combination_sum)
 
-  - LeetCode 279
-    - [Go To Website](https://leetcode.com/problems/perfect-squares/)
-    - [Go To Directory](./LeetCode/279_Perfect_Squares/README.md)
+  - LeetCode 45
+    - [Go To Website](https://leetcode.com/problems/jump-game-ii/)
+    - [Go To Directory](https://github.com/sunhongmin225/problem-solved/tree/main/LeetCode/45_jump_game)
 
 
 ## Reviewer-Reviewee
+### Week 19 ~ 20 [Current]
+![week19](https://user-images.githubusercontent.com/54504359/169645116-2702eaf8-c737-4232-88ea-a91a3956cef5.png)
 
-### Week 17 ~ 18 [Current]
+
+### Week 17 ~ 18 
 
 ![Week17](./utils/graphs/week17.png)
 
-
-### Week 15 ~ 16 [Last Week]
-
-![Week15](./utils/graphs/Week15.png)
 
 [*Instructions for creating review graph*](https://github.com/sunhongmin225/problem-solved/blob/main/utils/README.md)
 
