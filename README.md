@@ -3,20 +3,20 @@ Problem Solving Study Group
 
 
 
-📌 **Currently Week 19**
+📌 **Currently Week 20**
 
 
 😎 **Current Manager**: PJS
 
 ## Problems This Week
 
-  - LeetCode 97
-    - [Go To Website](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
-    - [Go To Directory](https://github.com/sunhongmin225/problem-solved/tree/main/LeetCode/97_interleaving_string)
+  - LeetCode 39
+    - [Go To Website](https://leetcode.com/problems/combination-sum/)
+    - [Go To Directory](https://github.com/sunhongmin225/problem-solved/tree/main/LeetCode/39_combination_sum)
 
-  - LeetCode 122
-    - [Go To Website](https://leetcode.com/problems/perfect-squares/)
-    - [Go To Directory](https://github.com/sunhongmin225/problem-solved/tree/main/LeetCode/122_best_time_to_buy_and_sell_stock)
+  - LeetCode 45
+    - [Go To Website](https://leetcode.com/problems/jump-game-ii/)
+    - [Go To Directory](https://github.com/sunhongmin225/problem-solved/tree/main/LeetCode/45_jump_game)
 
 
 ## Reviewer-Reviewee
